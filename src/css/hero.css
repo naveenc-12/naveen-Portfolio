@@ -599,3 +599,21 @@
 }
 
 }
+
+@media (max-width: 768px){
+
+    .hero{
+        grid-template-columns:1fr;
+    }
+
+    .hero-right{
+        display:none;
+    }
+
+    .hero-left{
+        width:100%;
+        text-align:center;
+        align-items:center;
+    }
+
+}
