@@ -72,13 +72,13 @@ return `
 
                 <ul>
 
+                    <li>Frontend Development</li>
+
                     <li>Unity Game Development</li>
 
-                    <li>VR Applications</li>
+                    <li>AR/VR Applications</li>
 
                     <li>3D Interactive Experiences</li>
-
-                    <li>Frontend Development</li>
 
                 </ul>
 

@@ -4,7 +4,7 @@ export function enterScreen() {
 
         <h1>NAVEEN PADIKKASU</h1>
 
-        <p>Software Engineer • Unity Developer • Creative Technologist</p>
+        <p>P O R T F O L I O</p>
 
         <button id="enterBtn">
             ENTER

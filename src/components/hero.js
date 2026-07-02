@@ -4,80 +4,164 @@ return `
 
 <section id="hero" class="hero">
 
-    <div class="hero-left">
+<div class="hero-left">
 
-        <span class="status">
+<span class="status">
 
-            ● AVAILABLE FOR WORK
+● AVAILABLE FOR WORK
 
-        </span>
+</span>
 
-        <h1>
+<h4>Hello, I'm</h4>
 
-            Naveen
-            <span>Padikkasu</span>
+<h1>
 
-        </h1>
+Naveen
 
-        <h2>
+<span>Padikkasu</span>
 
-            Software Developer • Unity Developer • Creative Technologist
+</h1>
 
-        </h2>
+<h2>
 
-        <p>
+Software Engineer • Unity Developer • Creative Technologist
 
-            Software Developer specializing in Unity, 
-            Frontend Development, VR Applications, 
-            and Interactive Experiences. Passionate 
-            about building high-performance applications 
-            with clean design and engaging user experiences.
+</h2>
 
-        </p>
+<p>
 
-        <div class="hero-buttons">
+Software Developer specializing in Unity, Game Development,
+VR Applications, and Interactive Experiences.
+Passionate about building high-performance applications
+with clean design.
 
-            <button class="btn-primary">
+</p>
 
-                Explore Projects
+<div class="hero-buttons">
 
-            </button>
+<button class="btn-primary">
 
-            <button class="btn-secondary">
+Explore Projects
 
-                Download Resume
+</button>
 
-            </button>
+<button class="btn-secondary">
 
-        </div>
+Download Resume
 
-        <div class="tech-stack">
+</button>
 
-            <span>Unity</span>
+</div>
 
-            <span>C#</span>
+<div class="tech-stack">
 
-            <span>Java</span>
+<span>Unity</span>
 
-            <span>JavaScript</span>
+<span>C#</span>
 
-            <span>HTML</span>
+<span>JavaScript</span>
 
-            <span>CSS</span>
+<span>Blender</span>
 
-            <span>Blender</span>
+<span>Git</span>
 
-            <span>UI/UX</span>
+</div>
 
-        </div>
+</div>
 
-    </div>
+<div class="hero-right">
 
-    <div class="hero-right">
+<div class="project-slider">
 
-        <div id="cube-container"></div>
+<div class="slide-track">
 
-    </div>
+<div class="project-card">
+
+<img src="/images/projects/vr-home.png">
+
+<h3>Virtual Home</h3>
+
+<p>VR Application</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="/images/projects/papfly.png">
+
+<h3>PapFly</h3>
+
+<p>2D Game</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="/images/projects/shooter.png">
+
+<h3>Arctic Hunter</h3>
+
+<p>Unity Game</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="/images/projects/blockchain.png">
+
+<h3>Voting System</h3>
+
+<p>Blockchain</p>
+
+</div>
+
+<!-- Duplicate -->
+
+<div class="project-card">
+
+<img src="/images/projects/vr-home.png">
+
+<h3>Virtual Home</h3>
+
+<p>VR Application</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="/images/projects/papfly.png">
+
+<h3>PapFly</h3>
+
+<p>2D Game</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="/images/projects/shooter.png">
+
+<h3>Arctic Hunter</h3>
+
+<p>Unity Game</p>
+
+</div>
+
+<div class="project-card">
+
+<img src="/images/projects/blockchain.png">
+
+<h3>Voting System</h3>
+
+<p>Blockchain</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
 
 </section>
 
