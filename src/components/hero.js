@@ -82,9 +82,9 @@ Download Resume
 
 <div class="hero-card-info">
 
-<h3>Virtual Home</h3>
+<h3>Virtual Home Application</h3>
 
-<p>VR Experience</p>
+<p>AR Experience</p>
 
 </div>
 
@@ -114,9 +114,9 @@ Download Resume
 
 <div class="hero-card-info">
 
-<h3>Blockchain</h3>
+<h3>E-Voting System</h3>
 
-<p>Voting System</p>
+<p>Final Year Project</p>
 
 </div>
 
@@ -142,13 +142,41 @@ Download Resume
 
 <div class="hero-card">
 
+<img src="/images/projects/Chitzan itza.png">
+
+<div class="hero-card-info">
+
+<h3>7 Wonders</h3>
+
+<p>3D Modelling</p>
+
+</div>
+
+</div>
+
+<div class="hero-card">
+
+<img src="/images/projects/Petra.png">
+
+<div class="hero-card-info">
+
+<h3>7 Wonders</h3>
+
+<p>3D Modelling</p>
+
+</div>
+
+</div>
+
+<div class="hero-card">
+
 <img src="/images/projects/vr-home.png">
 
 <div class="hero-card-info">
 
-<h3>Virtual Home</h3>
+<h3>Virtual Home Application</h3>
 
-<p>VR Experience</p>
+<p>AR Experience</p>
 
 </div>
 
@@ -174,9 +202,9 @@ Download Resume
 
 <div class="hero-card-info">
 
-<h3>Blockchain</h3>
+<h3>E-Voting System</h3>
 
-<p>Voting System</p>
+<p>Final Year Project</p>
 
 </div>
 
