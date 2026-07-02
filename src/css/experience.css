@@ -1,0 +1,215 @@
+.experience{
+
+    min-height:100vh;
+
+    padding:120px 8%;
+
+}
+
+.experience-header{
+
+    max-width:800px;
+
+    margin:0 auto 80px;
+
+    text-align:center;
+
+}
+
+.experience-header h2{
+
+    font-size:52px;
+
+    margin:25px 0;
+
+}
+
+.experience-header p{
+
+    color:#9CA3AF;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.timeline{
+
+    position:relative;
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding-left:50px;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:12px;
+
+    top:0;
+
+    width:3px;
+
+    height:100%;
+
+    background:linear-gradient(
+
+        #8E00FB,
+
+        rgba(142,0,251,.15)
+
+    );
+
+}
+
+.timeline-item{
+
+    position:relative;
+
+    margin-bottom:60px;
+
+}
+
+.timeline-dot{
+
+    position:absolute;
+
+    left:-48px;
+
+    top:18px;
+
+    width:22px;
+
+    height:22px;
+
+    border-radius:50%;
+
+    background:#8E00FB;
+
+    border:4px solid #09090B;
+
+    box-shadow:0 0 20px rgba(142,0,251,.6);
+
+}
+
+.timeline-content{
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.timeline-content:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#8E00FB;
+
+    box-shadow:0 20px 45px rgba(142,0,251,.18);
+
+}
+
+.timeline-date{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:rgba(142,0,251,.15);
+
+    color:#B266FF;
+
+    margin-bottom:18px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.timeline-content h3{
+
+    font-size:30px;
+
+    margin-bottom:8px;
+
+}
+
+.timeline-content h4{
+
+    color:#8E00FB;
+
+    margin-bottom:20px;
+
+    font-size:20px;
+
+    font-weight:500;
+
+}
+
+.timeline-content p{
+
+    color:#A1A1AA;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+@media(max-width:768px){
+
+.timeline{
+
+padding-left:30px;
+
+}
+
+.timeline::before{
+
+left:8px;
+
+}
+
+.timeline-dot{
+
+left:-36px;
+
+width:18px;
+
+height:18px;
+
+}
+
+.timeline-content{
+
+padding:25px;
+
+}
+
+.experience-header h2{
+
+font-size:40px;
+
+}
+
+}
