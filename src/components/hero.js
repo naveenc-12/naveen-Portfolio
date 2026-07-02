@@ -6,11 +6,11 @@ return `
 
 <div class="hero-left">
 
-<span class="status">
+<div class="status">
 
 ● AVAILABLE FOR WORK
 
-</span>
+</div>
 
 <h4>Hello, I'm</h4>
 
@@ -30,10 +30,9 @@ Software Engineer • Unity Developer • Creative Technologist
 
 <p>
 
-Software Developer specializing in Unity, Game Development,
-VR Applications, and Interactive Experiences.
-Passionate about building high-performance applications
-with clean design.
+Software Developer specializing in Unity, VR Applications,
+Frontend Development and Interactive Experiences.
+Passionate about creating beautiful digital products.
 
 </p>
 
@@ -59,11 +58,11 @@ Download Resume
 
 <span>C#</span>
 
+<span>Java</span>
+
 <span>JavaScript</span>
 
 <span>Blender</span>
-
-<span>Git</span>
 
 </div>
 
@@ -71,89 +70,129 @@ Download Resume
 
 <div class="hero-right">
 
-<div class="project-slider">
+<div class="slider-wrapper">
 
-<div class="slide-track">
+<div class="slider-track">
 
-<div class="project-card">
+<!-- Card -->
+
+<div class="hero-card">
 
 <img src="/images/projects/vr-home.png">
 
+<div class="hero-card-info">
+
 <h3>Virtual Home</h3>
 
-<p>VR Application</p>
+<p>VR Experience</p>
 
 </div>
 
-<div class="project-card">
+</div>
+
+<!-- Card -->
+
+<div class="hero-card">
 
 <img src="/images/projects/papfly.png">
 
+<div class="hero-card-info">
+
 <h3>PapFly</h3>
 
-<p>2D Game</p>
+<p>Mobile Game</p>
 
 </div>
 
-<div class="project-card">
+</div>
 
-<img src="/images/projects/shooter.png">
+<!-- Card -->
 
-<h3>Arctic Hunter</h3>
+<div class="hero-card">
 
-<p>Unity Game</p>
+<img src="/images/projects/blockchain-voting.png">
+
+<div class="hero-card-info">
+
+<h3>Blockchain</h3>
+
+<p>Voting System</p>
 
 </div>
 
-<div class="project-card">
+</div>
 
-<img src="/images/projects/blockchain.png">
+<!-- Card -->
 
-<h3>Voting System</h3>
+<div class="hero-card">
 
-<p>Blockchain</p>
+<img src="/images/projects/wonders.png">
+
+<div class="hero-card-info">
+
+<h3>7 Wonders</h3>
+
+<p>3D Modelling</p>
+
+</div>
 
 </div>
 
 <!-- Duplicate -->
 
-<div class="project-card">
+<div class="hero-card">
 
 <img src="/images/projects/vr-home.png">
 
+<div class="hero-card-info">
+
 <h3>Virtual Home</h3>
 
-<p>VR Application</p>
+<p>VR Experience</p>
 
 </div>
 
-<div class="project-card">
+</div>
+
+<div class="hero-card">
 
 <img src="/images/projects/papfly.png">
 
+<div class="hero-card-info">
+
 <h3>PapFly</h3>
 
-<p>2D Game</p>
+<p>Mobile Game</p>
 
 </div>
 
-<div class="project-card">
+</div>
 
-<img src="/images/projects/shooter.png">
+<div class="hero-card">
 
-<h3>Arctic Hunter</h3>
+<img src="/images/projects/blockchain-voting.png">
 
-<p>Unity Game</p>
+<div class="hero-card-info">
+
+<h3>Blockchain</h3>
+
+<p>Voting System</p>
 
 </div>
 
-<div class="project-card">
+</div>
 
-<img src="/images/projects/blockchain.png">
+<div class="hero-card">
 
-<h3>Voting System</h3>
+<img src="/images/projects/wonders.png">
 
-<p>Blockchain</p>
+<div class="hero-card-info">
+
+<h3>7 Wonders</h3>
+
+<p>3D Modelling</p>
+
+</div>
 
 </div>
 
