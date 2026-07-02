@@ -68,8 +68,6 @@ function launchPortfolio() {
 
     setTimeout(() => {
 
-        initThree();
-
         initProjects();
 
         initNavbar();
