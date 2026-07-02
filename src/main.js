@@ -14,7 +14,7 @@ import { footer } from "./components/footer";
 
 // Scripts
 import { startIntro } from "./js/animation";
-import { initThree } from "./js/threeScene";
+
 import { initProjects } from "./js/projects";
 import { initNavbar } from "./js/navbar";
 
