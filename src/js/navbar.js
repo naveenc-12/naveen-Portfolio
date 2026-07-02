@@ -1,9 +1,23 @@
 export function initNavbar() {
 
-    const links = document.querySelectorAll("nav a");
-    const sections = document.querySelectorAll("section");
     const navbar = document.querySelector(".navbar");
     const logo = document.querySelector(".logo");
+
+    const menu = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav-links");
+
+    const links = document.querySelectorAll("#nav-links a");
+    const sections = document.querySelectorAll("section");
+
+    // -------------------------
+    // Mobile Menu
+    // -------------------------
+
+    menu.addEventListener("click", () => {
+
+        nav.classList.toggle("active");
+
+    });
 
     // -------------------------
     // Smooth Scroll
@@ -11,18 +25,19 @@ export function initNavbar() {
 
     links.forEach(link => {
 
-        link.addEventListener("click", function(e){
+        link.addEventListener("click", function (e) {
 
             e.preventDefault();
 
             const target = document.querySelector(this.getAttribute("href"));
 
-            if(!target) return;
+            if (!target) return;
+
+            nav.classList.remove("active");
 
             target.scrollIntoView({
 
-                behavior:"smooth",
-                block:"start"
+                behavior: "smooth"
 
             });
 
@@ -34,13 +49,15 @@ export function initNavbar() {
     // Logo Scroll Top
     // -------------------------
 
-    logo.addEventListener("click",()=>{
+    logo.addEventListener("click", () => {
+
+        nav.classList.remove("active");
 
         window.scrollTo({
 
-            top:0,
+            top: 0,
 
-            behavior:"smooth"
+            behavior: "smooth"
 
         });
 
@@ -50,28 +67,30 @@ export function initNavbar() {
     // Active Link
     // -------------------------
 
-    function updateNav(){
+    function updateNav() {
 
-        let current="hero";
+        let current = "";
 
-        sections.forEach(section=>{
+        sections.forEach(section => {
 
-            const top=section.offsetTop-200;
-            const height=section.offsetHeight;
+            const top = section.offsetTop - 120;
 
-            if(window.scrollY>=top){
+            const height = section.offsetHeight;
 
-                current=section.id;
+            if (window.scrollY >= top &&
+                window.scrollY < top + height) {
+
+                current = section.id;
 
             }
 
         });
 
-        links.forEach(link=>{
+        links.forEach(link => {
 
             link.classList.remove("active");
 
-            if(link.getAttribute("href")==="#"+current){
+            if (link.getAttribute("href") === "#" + current) {
 
                 link.classList.add("active");
 
@@ -79,21 +98,15 @@ export function initNavbar() {
 
         });
 
-        // Navbar Background
+        if (window.scrollY > 80) {
 
-        if(window.scrollY>80){
+            navbar.style.background = "rgba(10,10,15,.85)";
+            navbar.style.backdropFilter = "blur(20px)";
 
-            navbar.style.background="rgba(10,10,15,.8)";
-            navbar.style.backdropFilter="blur(25px)";
-            navbar.style.borderColor="rgba(142,0,251,.25)";
+        } else {
 
-        }
-
-        else{
-
-            navbar.style.background="rgba(20,20,30,.45)";
-            navbar.style.backdropFilter="blur(18px)";
-            navbar.style.borderColor="rgba(255,255,255,.08)";
+            navbar.style.background = "rgba(20,20,30,.45)";
+            navbar.style.backdropFilter = "blur(18px)";
 
         }
 
@@ -101,37 +114,37 @@ export function initNavbar() {
 
     updateNav();
 
-    window.addEventListener("scroll",updateNav);
+    window.addEventListener("scroll", updateNav);
 
     // -------------------------
     // Hero Buttons
     // -------------------------
 
-    const explore=document.querySelector(".btn-primary");
+    const explore = document.querySelector(".btn-primary");
 
-    if(explore){
+    if (explore) {
 
-        explore.onclick=()=>{
+        explore.onclick = () => {
 
             document.querySelector("#projects").scrollIntoView({
 
-                behavior:"smooth"
+                behavior: "smooth"
 
             });
 
-        }
+        };
 
     }
 
-    const resume=document.querySelector(".btn-secondary");
+    const resume = document.querySelector(".btn-secondary");
 
-    if(resume){
+    if (resume) {
 
-        resume.onclick=()=>{
+        resume.onclick = () => {
 
-            window.open("/resume.pdf","_blank");
+            window.open("/resume.pdf", "_blank");
 
-        }
+        };
 
     }
 
