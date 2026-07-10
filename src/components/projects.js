@@ -78,17 +78,19 @@ return `
 
             <div class="project-content">
 
-                <h3>Secure Online Electronic Voting System</h3>
+                <h3>Data Processing REST API (FastAPI)</h3>
 
                 <p>
-                    Final year project using Blockchain Technology
-                    to ensure secure and tamper-resistant voting.
+                   ● Built a backend REST API using FastAPI with GET and POST endpoints, including file upload support for CSV 
+                     data. 
+                   ● Processed and transformed uploaded CSV files using Pandas, returning structured JSON responses to the client. 
+                   ● Documented and tested all endpoints using FastAPI's built-in Swagger UI for interactive API exploration. 
                 </p>
 
                 <div class="project-tech">
 
-                    <span>Blockchain</span>
-                    <span>Java</span>
+                    <span>Data Processing</span>
+                    <span>Python</span>
 
                 </div>
 
@@ -145,6 +147,7 @@ return `
             </div>
 
         </div>
+        
 
         <!-- Project 4 -->
 
@@ -178,6 +181,48 @@ return `
                 <button
                     class="details-btn"
                     data-project="wonder">
+
+                    View Details
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Project 5 -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img
+                    src="/images/projects/Cube.png"
+                    alt="Infinity Cubes"
+                >
+
+            </div>
+
+            <div class="project-content">
+
+                <h3>Infinity Cubes</h3>
+
+                <p>
+                    Endless runner mobile game developed
+                    using Unity Engine.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Unity</span>
+                    <span>2D</span>
+                    <span>C#</span>
+
+                </div>
+
+                <button
+                    class="details-btn"
+                    data-project="infinity-cubes">
 
                     View Details
 

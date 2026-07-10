@@ -24,7 +24,7 @@ Naveen
 
 <h2>
 
-Software Engineer • Unity Developer • Creative Technologist
+Software Engineer • Game Developer • Creative Technologist
 
 </h2>
 
@@ -196,29 +196,16 @@ Download Resume
 
 </div>
 
-<div class="hero-card">
-
-<img src="/images/projects/blockchain-voting.png">
-
-<div class="hero-card-info">
-
-<h3>E-Voting System</h3>
-
-<p>Final Year Project</p>
-
-</div>
-
-</div>
 
 <div class="hero-card">
 
-<img src="/images/projects/wonders.png">
+<img src="/images/projects/Cube.png">
 
 <div class="hero-card-info">
 
-<h3>7 Wonders</h3>
+<h3>Infinity Cubes</h3>
 
-<p>3D Modelling</p>
+<p>Game Development</p>
 
 </div>
 
