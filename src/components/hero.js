@@ -110,13 +110,13 @@ Download Resume
 
 <div class="hero-card">
 
-<img src="/images/projects/blockchain-voting.png">
+<img src="/images/projects/Cube.png">
 
 <div class="hero-card-info">
 
-<h3>E-Voting System</h3>
+<h3>Infinity Cubes</h3>
 
-<p>Final Year Project</p>
+<p>Game Development</p>
 
 </div>
 
@@ -191,21 +191,6 @@ Download Resume
 <h3>PapFly</h3>
 
 <p>Mobile Game</p>
-
-</div>
-
-</div>
-
-
-<div class="hero-card">
-
-<img src="/images/projects/Cube.png">
-
-<div class="hero-card-info">
-
-<h3>Infinity Cubes</h3>
-
-<p>Game Development</p>
 
 </div>
 
